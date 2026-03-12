@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste dos Quadrados</title>
+    <style>
+        body { 
+            text-align: center; /* Centraliza o texto, botões e títulos */
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        ul { 
+            padding: 0; 
+            text-align: center;      /* Mantém o texto alinhado à esquerda dentro do bloco centralizado */
+            list-style-position: inside; /* O segredo: coloca a bolinha "dentro" do texto centralizado */
+        }
+
+        li {
+            padding: 10px;
+            font-size: 1.1em;
+
+        }
+
+        .destaque { font-weight: bold; color: #1d0a61; }
+        
+        button {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Quadrado</h1>
+    <p>Clique no botão abaixo para processar os cálculos:</p> 
+    
+    <button onclick="gerarQuadrados()">Calcular Agora</button>
+
+    <ul id="lista-resultados"></ul>
+
+    <script>
+        function gerarQuadrados() {
+            // Pegamos a lista pelo ID exato
+            const lista = document.getElementById('lista-resultados');
+            
+            if (!lista) {
+                alert("Erro: Não encontrei a tag <ul> com o id 'lista-resultados'");
+                return;
+            }
+
+            // Limpa a lista
+            lista.innerHTML = "";
+
+            for (let i = 15; i <= 200; i++) {
+                let quadrado = i ** 2;
+                
+                let item = document.createElement('li');
+                item.innerHTML = `Número: ${i} → Quadrado: <span class="destaque">${quadrado}</span>`;
+                
+                lista.appendChild(item);
+            }
+            
+            console.log("A lista foi gerada com sucesso!");
+        }
+    </script>
+
+</body>
+</html>
