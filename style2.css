@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    height: 100vh;
+    /* Criamos um gradiente maior que a tela */
+    background: linear-gradient(-45deg, #f569c6, #401355, #083444, #447de7);
+    background-size: 400% 400%;
+    /* Chamamos a animação */
+    animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.295);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease
+}
+
+section:hover{
+    transform: scale(1.05);
+
+}
+
+input[type="button"] {
+    background-color: #283d6b; /* Uma das cores do seu gradiente */
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease; /*efeito saltar*/
+}
+
+input[type="button"]:hover {
+    background-color: #8b3a92; /* Muda para o rosa no hover */
+    transform: scale(1.05);/*efeito saltar*/
+}
+
+img{
+    display: block;     
+    margin: 0 auto;
+    padding: 10px;      
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    transition: all 0.3s ease
+}
+
+img:hover{
+    transform: scale(1.05);
+}
