@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio | Bella Pizza</title>
+    <link rel="stylesheet" href="pizza.css">
+</head>
+<body class="cardapio-page">
+
+    <nav id="navbar"><!--barra de navegação-->
+        <div class="logo"><a href="pizza.html" style="text-decoration:none; color:inherit;">Teste<span>Pizza</span></a></div><!--Remove o sublinhado automático-->
+        <ul>
+            <li><a href="pizza.html">Home</a></li>
+            <button class="btn-pedido" id="btn-checkout">Meu Pedido (<span id="cart-count">0</span>)</button>
+        </ul>
+    </nav>
+
+    <main class="menu-section"><!--conteúdo principal e exclusivo-->
+        <h1 class="menu-title">Nosso <span>Cardápio</span></h1>
+        
+        <div class="menu-grid"><!--pizza1-->
+            <div class="menu-card">
+                <img src="banco de imagens/pizzai.png" alt="Margherita">
+                <div class="menu-info">
+                    <h3>Margherita Clássica</h3>
+                    <p>Molho de tomate, mozzarella de búfala e manjericão.</p>
+                    <span class="price">R$ 45,00</span>
+                </div>
+            </div>
+
+            <div class="menu-card"><!--pizza2-->
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80" alt="Calabresa">
+                <div class="menu-info">
+                    <h3>Calabresa Gourmet</h3>
+                    <p>Calabresa defumada, cebola roxa e azeitonas.</p>
+                    <span class="price">R$ 48,00</span>
+                </div>
+            </div>
+
+            <div class="menu-card"><!--pizza3-->
+                <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80" alt="Quatro Queijos">
+                <div class="menu-info">
+                    <h3>Quatro Queijos</h3>
+                    <p>Mozzarella, provolone, parmesão e gorgonzola.</p>
+                    <span class="price">R$ 52,00</span>
+                </div>
+            </div>
+            <div class="menu-card"><!--pizza3-->
+                <img src="banco de imagens/suiço.jpg" alt="Quatro Queijos">
+                <div class="menu-info">
+                    <h3>Chocolate Suíço </h3>
+                    <p>Chocolate suíço, morango e biscoito maizena.</p>
+                    <span class="price">R$ 52,00</span>
+                </div>
+            </div>
+        </div>
+    </main>
+<!--Modal de Carrinho de Compras-->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <h2>Seu Pedido 🍕</h2>
+            <ul id="cart-items"></ul>
+            <div class="cart-total">Total: <span id="total-price">R$ 0,00</span></div>
+            <div class="modal-buttons">
+                <button onclick="closeCart()" class="btn-close">Adicionar Mais</button>
+                <button onclick="finishOrder()" class="btn-finish">Finalizar Pedido</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="pizza.js"></script>
+</body>
+</html>
