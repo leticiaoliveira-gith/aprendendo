@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(240, 206, 231);
+    color: brown;
+    text-align: center;
+    padding: 5px;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.295);
+    position: relative; 
+    z-index: 10; /* Valor alto para ficar na frente */
+}
+
+input[type="button"] {
+    background-color: brown; /* Uma das cores do seu gradiente */
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease; /*efeito saltar*/
+}
+
+input[type="button"]:hover {
+    background-color: #f5337e; /* Muda para o rosa no hover */
+    transform: scale(1.05);/*efeito saltar*/
+}
+
+
+.cherry {
+    position: fixed;
+    top: -50px;
+    font-size: 50px;
+    user-select: none;
+    pointer-events: none;
+    
+    /* ALTERE O Z-INDEX PARA UM VALOR BAIXO */
+    z-index: 1; 
+    animation: fall linear forwards;
+}
+
+/* A animação de cair */
+@keyframes fall {
+    0% {
+        transform: translateY(0vh) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(105vh) rotate(360deg); /* Vai até o final da tela */
+        opacity: 0.3;
+    }
+}
