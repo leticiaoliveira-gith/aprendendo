@@ -1,0 +1,17 @@
+body{
+    background: rgb(87, 87, 219);
+}
+
+h1{
+    color: rgb(220, 227, 247);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+}
