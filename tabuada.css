@@ -1,11 +1,36 @@
+@keyframes surgir {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+}/*animaciom*/
+
+
 body{
-    background: rgb(87, 87, 219);
+    background: linear-gradient( #021258, #447de7);
+    background-size: 400% 400%;
+    font-family: Arial, sans-serif;
+    color: white; 
 }
 
-h1{
-    color: rgb(220, 227, 247);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h1 {
+    font-size: 2.5rem;
+    color: transparent; /* Torna o texto original transparente */
+    background: linear-gradient(120deg, 
+        rgba(233, 234, 241, 0.1) 40%, 
+        #ffffff 50%, 
+        rgba(233, 234, 241, 0.1) 70%); /* Cria o "brilho" branco no meio */
+    background-size: 200% auto; /* Aumenta o tamanho do fundo para podermos movê-lo */
+    background-clip: text; /* Clipa o fundo para preencher apenas o texto */
+    animation: brilhoPassante 4s linear infinite; /* Aplica a animação */
     text-align: center;
+}
+
+@keyframes brilhoPassante {
+    to {
+        background-position: 200% center; /* Move o fundo da esquerda para a direita */
+    }
 }
 
 section{
@@ -14,4 +39,28 @@ section{
     padding: 20px;
     width: 500px;
     margin: auto;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+
+select{
+    width: 40%;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+option{
+    padding: 5px;
+    animation: surgir 0.4s ease forwards;
+}
+
+input[type="button"] {
+    background-color: #2a5298;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
