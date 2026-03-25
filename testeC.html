@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Miau World — O Universo Felino</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="testeC.css">
+</head>
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">Miau<span>World</span></a>
+    <ul class="nav-links">
+      <li><a href="#racas">Raças</a></li>
+      <li><a href="#curiosidades">Fatos</a></li>
+      <li><a href="#cuidados">Cuidados</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <div class="hero-eyebrow">O Universo Felino</div>
+      <h1 class="hero-title">
+        Viva com
+        <em>graça &amp; mistério</em>
+      </h1>
+      <p class="hero-desc">
+        Criaturas de puro charme — elegantes, independentes e eternamente fascinantes. Descubra o mundo dos felinos.
+      </p>
+      <div class="hero-cta">
+        <a href="#racas" class="btn-primary">Explorar Raças</a>
+        <a href="#cuidados" class="btn-ghost">Guia de Cuidados</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hero-img-wrap">
+        <div class="hero-accent"></div>
+        <div class="hero-number">猫</div>
+        <img class="hero-cat-svg" src="banco de imagens/gato2.jpg" alt="Gato">
+          <ellipse cx="250" cy="360" rx="130" ry="110" fill="#3a3530"/>
+          <ellipse cx="250" cy="230" rx="110" ry="100" fill="#3a3530"/>
+          <polygon points="160,160 140,100 205,145" fill="#3a3530"/>
+          <polygon points="166,156 149,113 198,147" fill="#c4836e"/>
+          <polygon points="340,160 360,100 295,145" fill="#3a3530"/>
+          <polygon points="334,156 351,113 302,147" fill="#c4836e"/>
+          <ellipse cx="250" cy="245" rx="72" ry="62" fill="#4a453e"/>
+          <ellipse cx="220" cy="225" rx="18" ry="22" fill="#f5f0e8"/>
+          <ellipse cx="280" cy="225" rx="18" ry="22" fill="#f5f0e8"/>
+          <ellipse cx="220" cy="226" rx="9" ry="14" fill="#1a1814"/>
+          <ellipse cx="280" cy="226" rx="9" ry="14" fill="#1a1814"/>
+          <circle cx="217" cy="221" r="3.5" fill="white"/>
+          <circle cx="277" cy="221" r="3.5" fill="white"/>
+          <ellipse cx="220" cy="228" rx="5" ry="6" fill="#c8873a" opacity="0.7"/>
+          <ellipse cx="280" cy="228" rx="5" ry="6" fill="#c8873a" opacity="0.7"/>
+          <polygon points="250,255 244,265 256,265" fill="#c4836e"/>
+          <path d="M244,265 Q237,272 228,270" stroke="#c4836e" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+          <path d="M256,265 Q263,272 272,270" stroke="#c4836e" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+          <line x1="245" y1="260" x2="185" y2="250" stroke="#f5f0e8" stroke-width="1.2" opacity="0.6"/>
+          <line x1="245" y1="265" x2="182" y2="262" stroke="#f5f0e8" stroke-width="1.2" opacity="0.6"/>
+          <line x1="245" y1="270" x2="187" y2="276" stroke="#f5f0e8" stroke-width="1.2" opacity="0.6"/>
+          <line x1="255" y1="260" x2="315" y2="250" stroke="#f5f0e8" stroke-width="1.2" opacity="0.6"/>
+          <line x1="255" y1="265" x2="318" y2="262" stroke="#f5f0e8" stroke-width="1.2" opacity="0.6"/>
+          <line x1="255" y1="270" x2="313" y2="276" stroke="#f5f0e8" stroke-width="1.2" opacity="0.6"/>
+          <path d="M380,450 Q450,350 430,280 Q420,240 390,250 Q370,260 375,300 Q380,330 360,370" stroke="#3a3530" stroke-width="28" stroke-linecap="round" fill="none"/>
+          <ellipse cx="195" cy="465" rx="38" ry="20" fill="#3a3530"/>
+          <ellipse cx="305" cy="465" rx="38" ry="20" fill="#3a3530"/>
+          <ellipse cx="183" cy="458" rx="8" ry="5" fill="#2c2820"/>
+          <ellipse cx="195" cy="455" rx="8" ry="5" fill="#2c2820"/>
+          <ellipse cx="207" cy="458" rx="8" ry="5" fill="#2c2820"/>
+          <ellipse cx="293" cy="458" rx="8" ry="5" fill="#2c2820"/>
+          <ellipse cx="305" cy="455" rx="8" ry="5" fill="#2c2820"/>
+          <ellipse cx="317" cy="458" rx="8" ry="5" fill="#2c2820"/>
+          <ellipse cx="250" cy="320" rx="55" ry="45" fill="#4a453e"/>
+          <rect x="195" y="295" width="110" height="16" rx="8" fill="#c8873a"/>
+          <circle cx="250" cy="303" r="8" fill="#e8a85a"/>
+        </svg>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section" aria-hidden="true">
+    <div class="marquee-track">
+      <span class="marquee-item">Persian</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Maine Coon</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Siamês</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Bengal</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Ragdoll</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Scottish Fold</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Sphynx</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Norwegian Forest</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Abyssinian</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Persian</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Maine Coon</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Siamês</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Bengal</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Ragdoll</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Scottish Fold</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Sphynx</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Norwegian Forest</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Abyssinian</span><span class="marquee-dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <div>
+      <div class="about-label">Nossa Filosofia</div>
+      <h2 class="about-title">
+        Independência como<br>
+        <em>arte de viver</em>
+      </h2>
+    </div>
+    <div class="about-visual">
+      <div class="about-card-main">
+        <p class="about-quote">
+          "Um gato não tem dono — ele tem um associado, um colega de quarto, um anfitrião."
+        </p>
+        <div class="about-quote-author">— James Mason, escritor</div>
+        <div class="stat-row">
+          <div class="stat">
+            <div class="stat-number">70+</div>
+            <div class="stat-label">Raças reconhecidas</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">600M</div>
+            <div class="stat-label">Gatos no mundo</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">9.500</div>
+            <div class="stat-label">Anos de domesticação</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BREEDS -->
+  <section class="breeds" id="racas">
+    <div class="section-header">
+      <div class="section-header-left">
+        <div class="section-tag">Raças em Destaque</div>
+        <h2 class="section-title">Os mais <em style="font-style:italic;color:var(--terracotta)">fascinantes</em> felinos</h2>
+      </div>
+      <a href="#" class="section-link">Ver todas as raças →</a>
+    </div>
+    <div class="breeds-grid">
+      <div class="breed-card fade-up">
+        <div class="breed-img-bg" style="background:linear-gradient(135deg,#d4c2a8,#b8a08a);">
+          🐱<div class="breed-badge">Popular</div>
+        </div>
+        <div class="breed-info">
+          <div class="breed-origin">Irã · Século XVII</div>
+          <div class="breed-name">Persa</div>
+          <p class="breed-desc">Majestoso e sereno, o Persa é sinônimo de elegância com seu pelo luxuoso e temperamento calmo e afetivo.</p>
+          <div class="breed-traits">
+            <span class="trait">Dócil</span><span class="trait">Silencioso</span><span class="trait">Carinhoso</span>
+          </div>
+        </div>
+      </div>
+      <div class="breed-card fade-up">
+        <div class="breed-img-bg" style="background:linear-gradient(135deg,#c8b89a,#a89070);">
+          🦁<div class="breed-badge">Gigante</div>
+        </div>
+        <div class="breed-info">
+          <div class="breed-origin">EUA · Século XIX</div>
+          <div class="breed-name">Maine Coon</div>
+          <p class="breed-desc">Uma das maiores raças domésticas, o Maine Coon combina porte imponente com personalidade brincalhona e leal.</p>
+          <div class="breed-traits">
+            <span class="trait">Inteligente</span><span class="trait">Brincalhão</span><span class="trait">Leal</span>
+          </div>
+        </div>
+      </div>
+      <div class="breed-card fade-up">
+        <div class="breed-img-bg" style="background:linear-gradient(135deg,#e8d4b8,#d4b898);">
+          😺<div class="breed-badge">Exótico</div>
+        </div>
+        <div class="breed-info">
+          <div class="breed-origin">Tailândia · Séc. XIV</div>
+          <div class="breed-name">Siamês</div>
+          <p class="breed-desc">Vocal, inteligente e extremamente apegado ao dono — o Siamês é considerado o mais comunicativo de todos os felinos.</p>
+          <div class="breed-traits">
+            <span class="trait">Vocal</span><span class="trait">Sociável</span><span class="trait">Curioso</span>
+          </div>
+        </div>
+      </div>
+      <div class="breed-card fade-up">
+        <div class="breed-img-bg" style="background:linear-gradient(135deg,#c4a882,#a88c60);">
+          🐯<div class="breed-badge">Selvagem</div>
+        </div>
+        <div class="breed-info">
+          <div class="breed-origin">EUA · 1960s</div>
+          <div class="breed-name">Bengal</div>
+          <p class="breed-desc">Com marcações de leopardo e energia intensa, o Bengal parece ter saído diretamente da selva — e nunca esqueceu disso.</p>
+          <div class="breed-traits">
+            <span class="trait">Ativo</span><span class="trait">Atlético</span><span class="trait">Caçador</span>
+          </div>
+        </div>
+      </div>
+      <div class="breed-card fade-up">
+        <div class="breed-img-bg" style="background:linear-gradient(135deg,#e0d4c4,#c8b8a8);">😻</div>
+        <div class="breed-info">
+          <div class="breed-origin">EUA · 1960s</div>
+          <div class="breed-name">Ragdoll</div>
+          <p class="breed-desc">Completamente relaxa nos braços de qualquer pessoa — o Ragdoll é o epítome da docilidade e afeição incondicional.</p>
+          <div class="breed-traits">
+            <span class="trait">Relaxado</span><span class="trait">Gentil</span><span class="trait">Companheiro</span>
+          </div>
+        </div>
+      </div>
+      <div class="breed-card fade-up">
+        <div class="breed-img-bg" style="background:linear-gradient(135deg,#b8c8b8,#8aa88a);">
+          🙀<div class="breed-badge">Único</div>
+        </div>
+        <div class="breed-info">
+          <div class="breed-origin">Escócia · 1961</div>
+          <div class="breed-name">Scottish Fold</div>
+          <p class="breed-desc">As orelhas dobradas para frente dão ao Scottish Fold uma expressão permanente de surpresa ingênua e encantadora.</p>
+          <div class="breed-traits">
+            <span class="trait">Curioso</span><span class="trait">Dócil</span><span class="trait">Adaptável</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FACTS -->
+  <section class="facts-strip" id="curiosidades">
+    <div class="fact-item fade-up">
+      <div class="fact-number">320°</div>
+      <div class="fact-title">Campo de visão</div>
+      <p class="fact-desc">Os gatos enxergam quase em volta completa — muito além dos humanos com seus 180°.</p>
+    </div>
+    <div class="fact-item fade-up">
+      <div class="fact-number">100+</div>
+      <div class="fact-title">Vocalizações</div>
+      <p class="fact-desc">Gatos possuem mais de 100 sons distintos; cães apenas 10. O ronronar pode variar de 25 a 150 Hz.</p>
+    </div>
+    <div class="fact-item fade-up">
+      <div class="fact-number">2×</div>
+      <div class="fact-title">Ossos no ouvido</div>
+      <p class="fact-desc">Com 32 músculos em cada orelha, podem girá-la 180° para localizar qualquer som com precisão milimétrica.</p>
+    </div>
+    <div class="fact-item fade-up">
+      <div class="fact-number">70%</div>
+      <div class="fact-title">Do dia dormindo</div>
+      <p class="fact-desc">Gatos dormem entre 12 e 16 horas por dia — são animais crepusculares otimizados para caçadas rápidas e certeiras.</p>
+    </div>
+  </section>
+
+  <!-- CARE -->
+  <section class="care" id="cuidados">
+    <div class="section-header">
+      <div class="section-header-left">
+        <div class="section-tag">Guia Essencial</div>
+        <h2 class="section-title">Cuidados com <em style="font-style:italic;color:var(--terracotta)">amor</em></h2>
+      </div>
+    </div>
+    <div class="care-grid">
+      <div class="care-list">
+        <div class="care-item">
+          <span class="care-num">01</span>
+          <div>
+            <div class="care-item-title">Nutrição equilibrada</div>
+            <p class="care-item-desc">Priorize ração úmida de qualidade e água sempre fresca. Gatos são carnívoros obrigatórios — proteína animal é insubstituível.</p>
+          </div>
+        </div>
+        <div class="care-item">
+          <span class="care-num">02</span>
+          <div>
+            <div class="care-item-title">Enriquecimento ambiental</div>
+            <p class="care-item-desc">Arranhadores, prateleiras, brinquedos interativos e janelas com vista estimulam a mente felina e previnem estresse.</p>
+          </div>
+        </div>
+        <div class="care-item">
+          <span class="care-num">03</span>
+          <div>
+            <div class="care-item-title">Visitas veterinárias</div>
+            <p class="care-item-desc">Check-ups anuais, vacinação em dia e castração são pilares da saúde. Dentes e orelhas merecem atenção regular.</p>
+          </div>
+        </div>
+        <div class="care-item">
+          <span class="care-num">04</span>
+          <div>
+            <div class="care-item-title">Caixa de areia impecável</div>
+            <p class="care-item-desc">Limpe diariamente e oferece pelo menos uma caixa por gato mais uma extra. Higiene é questão de bem-estar e saúde.</p>
+          </div>
+        </div>
+        <div class="care-item">
+          <span class="care-num">05</span>
+          <div>
+            <div class="care-item-title">Vínculo afetivo</div>
+            <p class="care-item-desc">Respeite o espaço do gato e deixe-o iniciar o contato. Confiança construída no ritmo dele cria laços profundos e duradouros.</p>
+          </div>
+        </div>
+      </div>
+      <div class="care-aside">
+        <div class="care-aside-box">
+          <div class="care-aside-icon">🐾</div>
+          <h3 class="care-aside-title">Um gato feliz é um gato <em>saudável</em></h3>
+          <p class="care-aside-desc">O bem-estar emocional é tão importante quanto a saúde física. Um ambiente seguro, previsível e repleto de estímulos é o maior presente que você pode oferecer.</p>
+          <a href="#" class="care-aside-cta">Baixar guia completo →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY STRIP -->
+  <section id="galeria">
+    <div class="gallery-strip">
+      <div class="gallery-item" style="background:linear-gradient(160deg,#d4c4b0,#b8a890);">
+        😸<div class="gallery-item-label">Felicidade pura</div>
+      </div>
+      <div class="gallery-item" style="background:linear-gradient(160deg,#c4b8a4,#a8a08a);">
+        😴<div class="gallery-item-label">Sonhos dourados</div>
+      </div>
+      <div class="gallery-item" style="background:linear-gradient(160deg,#b8c8b0,#9ab09a);">
+        🐱<div class="gallery-item-label">Olhar profundo</div>
+      </div>
+      <div class="gallery-item" style="background:linear-gradient(160deg,#d8c0a8,#c0a890);">
+        🦊<div class="gallery-item-label">Elegância nata</div>
+      </div>
+      <div class="gallery-item" style="background:linear-gradient(160deg,#c8b8c8,#b0a0b0);">
+        😻<div class="gallery-item-label">Amor genuíno</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand-name">Miau<span>World</span></div>
+        <p class="footer-tagline">Dedicado à arte e ciência de viver em harmonia com os felinos.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Explorar</div>
+        <ul class="footer-links">
+          <li><a href="#">Raças</a></li>
+          <li><a href="#">Curiosidades</a></li>
+          <li><a href="#">Cuidados</a></li>
+          <li><a href="#">Galeria</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Recursos</div>
+        <ul class="footer-links">
+          <li><a href="#">Guia do Tutor</a></li>
+          <li><a href="#">Nutrição Felina</a></li>
+          <li><a href="#">Saúde &amp; Vet</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Contato</div>
+        <ul class="footer-links">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Sobre nós</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2025 MiauWorld · Todos os direitos reservados</div>
+      <div class="footer-paws">🐾 🐾 🐾</div>
+    </div>
+  </footer>
+
+  <script src="testeC.js"></script>
+</body>
+</html>
