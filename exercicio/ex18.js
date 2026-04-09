@@ -6,7 +6,7 @@ switch (dia) {
     case "Quarta":
     case "Quinta":
     case "Sexta":
-        console.log("Dia de trabalhar! 💼");
+        console.log("Dia de Aula 💼");
         break;
     case "Sábado":
     case "Domingo":
