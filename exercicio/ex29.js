@@ -4,7 +4,7 @@ function calculoImc(peso, altura){
     let classificacao = ""
 
     if ( imc<= 18.5){
-        classificacao = "abaixo do peso"
+        classificacao = "Abaixo do peso"
     } else if (imc >= 18.5 && imc <= 24.9) {
         classificacao = "Peso normal";
     } else if (imc >= 25 && imc <= 29.9) {
@@ -14,4 +14,5 @@ function calculoImc(peso, altura){
     }
     return `Seu IMC é ${formatado} (${classificacao})`
 }
+console.log(`------IMC------`)
 console.log(calculoImc(70, 1.75))
