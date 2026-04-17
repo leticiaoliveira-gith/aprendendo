@@ -127,3 +127,62 @@ nav ul li a:hover { color: #ffb84d; }
 }
 @keyframes float { 0%, 100% { transform: translateY(0) rotate(0); } 50% { transform: translateY(-20px) rotate(5deg); } }
 .reveal { opacity: 0; transform: translateY(30px); transition: 1s all ease; }
+
+/* vendo se melhora a responsividade*/
+
+@media (max-width: 768px) {
+    nav {
+        padding: 20px 5%;
+        flex-direction: column; /* Coloca a logo em cima e os links embaixo */
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap; /* Permite que os links pulem linha se faltar espaço */
+        justify-content: center;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column; 
+        height: auto; /* Tira a altura fixa de 100vh */
+        padding: 100px 5% 50px 5%; /* Dá espaço para não bater no topo */
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem; /* Diminui a letra no celular */
+    }
+
+    .hero-content p {
+        margin: 20px auto; /* Centraliza o texto */
+    }
+
+    .hero-image img {
+        width: 80%; /* A pizza agora ocupa 80% da largura da tela, não mais 500px fixos */
+        max-width: 300px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sobre-container p {
+        flex-direction: column; /* Gatinho em cima, texto embaixo */
+        text-align: center;
+    }
+
+    .sobre-container h2 {
+        font-size: 2rem;
+    }
+
+    .tig {
+        width: 150px; /* Diminui o gatinho no celular */
+    }
+}
