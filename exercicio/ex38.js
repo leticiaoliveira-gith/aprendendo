@@ -10,3 +10,9 @@ function classificarXp (...nivel){
     })
 }
 console.log(classificarXp(1200, 4500, 9000, 2100))
+
+function classificarXp (...nivel){
+    return nivel
+        .filter(n => n > 5000)
+        .map(() => "Mestre"); 
+}
