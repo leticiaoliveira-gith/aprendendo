@@ -1,7 +1,7 @@
 const alunos = [
-  { nome: "Ana", notas: [] },
-  { nome: "Bruno", notas: [] },
-  { nome: "Carla", notas: [] }
+  { nome: "Alice", nota: "" },
+  { nome: "Marcos", notas: "" },
+  { nome: "Leticia", notas: "" }
 ];
 
 function analisarTurma(listaAlunos) {
