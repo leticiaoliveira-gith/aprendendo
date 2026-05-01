@@ -11,7 +11,7 @@ class Cachorro {
 
 // Criando instâncias (objetos)
 const pet1 = new Cachorro("Rex", "Labrador");
-const pet2 = new Cachorro("Luna", "Poodle");
+const pet2 = new Cachorro("toto", "Poodle");
 
 pet1.latir();
 pet2.latir();
