@@ -1,2 +1,3 @@
-exercicio/ex.js
-exercicio/node_61e378344640f.tmp.js
+node_modules/
+.DS_Store
+dist/
