@@ -10,7 +10,7 @@ export const Navbar = () => {
           <a href='#'>Widgets</a> 
         </li>
         <li className="nav-item">
-            <a href="#">Configurações</a>
+            <button aria-expanded="false">Apps</button>
         </li>
       </ul>
     </nav>
