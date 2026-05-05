@@ -1,3 +1,4 @@
+import { Footer } from './components/Footer'; 
 // Definindo o componente Navbar
 export const Navbar = () => {
   return (
@@ -30,6 +31,7 @@ function App() {
       <main className="main-content">
         <h1>Meu Dashboard</h1>
       </main>
+      <Footer />
     </div>
   )
 }
