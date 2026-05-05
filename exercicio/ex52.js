@@ -1,3 +1,4 @@
+//Contador de Status
 const tarefas = [
     { titulo: "Estudar React", concluida: true },
     { titulo: "Fazer exercícios de JS", concluida: false },
@@ -18,4 +19,3 @@ function resumoTarefas(lista) {
 }
 
 console.log(resumoTarefas(tarefas));
-// Resultado esperado: { total: 5, concluidas: 3, faltam: 2 }
