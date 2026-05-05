@@ -1,0 +1,13 @@
+export const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <ul>
+        <li className="nav-item">
+          <a href="#">Dashboard</a>
+        </li>
+        <li className="nav-item"></li>
+        <li className="nav-item"></li>
+      </ul>
+    </nav>
+  )
+}
