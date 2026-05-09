@@ -1,3 +1,4 @@
+// logistica por bairro
 const entregas = [
     { id: 1, bairro: "Centro" },
     { id: 2, bairro: "Lapa" },

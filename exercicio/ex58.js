@@ -1,3 +1,4 @@
+//mascarar numrro
 const clientes = [
     { nome: "Letícia", tel: "11988884444" },
     { nome: "João", tel: "21977773333" },
