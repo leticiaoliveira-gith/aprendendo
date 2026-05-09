@@ -22,7 +22,3 @@ function mascararTelefones(lista) {
 
 console.log("Lista de Clientes (Protegida):");
 console.log(mascararTelefones(clientes));
-/* 
-Resultado esperado:
-{ nome: "Letícia", tel: "****-****4444" }, ...
-*/

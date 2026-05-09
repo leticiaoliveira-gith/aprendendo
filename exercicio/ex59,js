@@ -1,0 +1,29 @@
+const entregas = [
+    { id: 1, bairro: "Centro" },
+    { id: 2, bairro: "Lapa" },
+    { id: 3, bairro: "Centro" },
+    { id: 4, bairro: "Copacabana" },
+    { id: 5, bairro: "Lapa" },
+    { id: 6, bairro: "Centro" }
+];
+
+function mapearBairros(lista) {
+    const resumo = {};
+
+    lista.forEach(pedido => {
+        const local = pedido.bairro;
+        
+        // Se o bairro já existe no resumo, soma 1. 
+        // Se não existe, começa com 1.
+        if (resumo[local]) {
+            resumo[local] += 1;
+        } else {
+            resumo[local] = 1;
+        }
+    });
+
+    return resumo;
+}
+
+console.log("Resumo de entregas por bairro:");
+console.log(mapearBairros(entregas));
