@@ -30,7 +30,7 @@ function App() {
           <img src="/imagens/pizza.png" alt="Pizza" id="pizza-img" />
         </div>
       </section>
-
+{/*teste*/}
       {/* Seção do Cardápio Atualizada */}
       <section id="cardapio" className="cardapio-section">
         <h2>Nosso <span>Cardápio</span></h2>
