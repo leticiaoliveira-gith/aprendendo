@@ -30,44 +30,6 @@ function App() {
           <img src="/imagens/pizza.png" alt="Pizza" id="pizza-img" />
         </div>
       </section>
-{/*teste*/}
-      {/* Seção do Cardápio Atualizada */}
-      <section id="cardapio" className="cardapio-section">
-        <h2>Nosso <span>Cardápio</span></h2>
-        <div className="cardapio-grid">
-          {/* Pizza 1 */}
-          <div className="pizza-card">
-            <img src="/imagens/pizzai.png" alt="Margherita" />
-            <h3>Margherita Clássica</h3>
-            <p>Molho de tomate, mozzarella de búfala e manjericão.</p>
-            <span className="preco">R$ 45,00</span>
-          </div>
-
-          {/* Pizza 2 */}
-          <div className="pizza-card">
-            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80" alt="Calabresa" />
-            <h3>Calabresa Gourmet</h3>
-            <p>Calabresa defumada, cebola roxa e azeitonas.</p>
-            <span className="preco">R$ 48,00</span>
-          </div>
-
-          {/* Pizza 3 */}
-          <div className="pizza-card">
-            <img src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80" alt="Quatro Queijos" />
-            <h3>Quatro Queijos</h3>
-            <p>Mozzarella, provolone, parmesão e gorgonzola.</p>
-            <span className="preco">R$ 52,00</span>
-          </div>
-
-          {/* Pizza 4 (Doce) */}
-          <div className="pizza-card">
-            <img src="/imagens/pizzapng2.png" alt="Chocolate Suíço" />
-            <h3>Chocolate Suíço</h3>
-            <p>Chocolate suíço, morango e biscoito maizena.</p>
-            <span className="preco">R$ 52,00</span>
-          </div>
-        </div>
-      </section>
 
       {/* Seção Sobre / História */}
       <section id="sobre" className="sobre-section">
