@@ -31,6 +31,30 @@ function App() {
         </div>
       </section>
 
+            {/* Seção do Cardápio */}
+      <section id="cardapio" className="menu-section">
+        <h2 className="menu-title">Nosso <span>Cardápio</span></h2>
+        <div className="menu-grid">
+          <div className="menu-card">
+            <img src="/imagens/pizza.png" alt="Pizza Calabresa" />
+            <div className="menu-info">
+              <h3>Calabresa Especial</h3>
+              <p>Molho de tomate, mussarela, calabresa e cebola.</p>
+              <span className="price">R$ 45,00</span>
+            </div>
+          </div>
+          <div className="menu-card">
+            <img src="/imagens/pizzai.png" alt="Pizza Marguerita" />
+            <div className="menu-info">
+              <h3>Marguerita Gourmet</h3>
+              <p>Mussarela, manjericão fresco e fatias de tomate.</p>
+              <span className="price">R$ 42,00</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       {/* Seção Sobre / História */}
       <section id="sobre" className="sobre-section">
         <div className="sobre-container">
