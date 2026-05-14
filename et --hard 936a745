@@ -1,0 +1,147 @@
+[33me1aed20[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{0}: checkout: moving from main to main
+[33me1aed20[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{1}: commit: adiciona node_modules ao gitignore
+[33m4734b36[m HEAD@{2}: pull origin main: Merge made by the 'ort' strategy.
+[33m12cd9ce[m HEAD@{3}: commit: Limpando pastas duplicadas e organizando gitignore
+[33m40a3716[m HEAD@{4}: commit: Recuperando arquivos da Bella Pizza
+[33m144e4da[m HEAD@{5}: commit: Faxina geral: seguindo o gitignore
+[33m40169e9[m HEAD@{6}: commit: Ajuste de imagens e cardápio
+[33m936a745[m HEAD@{7}: commit: validador simples
+[33m0f2f771[m HEAD@{8}: commit: comentarios
+[33m7863fa9[m HEAD@{9}: commit: Logística por Bairro
+[33maabd651[m HEAD@{10}: commit: Mascaramento de Dados (LGPD)
+[33m887531d[m HEAD@{11}: commit: Sistema de Notificações usando Polimorfismo
+[33m73c2e3a[m HEAD@{12}: commit: Filtro de Status de Chat
+[33m5684042[m HEAD@{13}: commit: Painel do Entregador
+[33med8d70a[m HEAD@{14}: commit: Verificador de Prazo
+[33mcce6682[m HEAD@{15}: commit: Ordem Alfabética e Preço
+[33m4ac1607[m HEAD@{16}: commit: Integração do componente Footer no App
+[33m8344ff8[m HEAD@{17}: commit: Conclusão da estrutura da Mega Navbar - Passo 11
+[33m737e634[m HEAD@{18}: commit: etapa 8 adicionada
+[33mfc11992[m HEAD@{19}: commit: Passo 7: Adicionando botão Apps com acessibilidade
+[33mb0a35a9[m HEAD@{20}: commit: Passo 6 concluído
+[33m67d91bd[m HEAD@{21}: commit: mudando comentario
+[33m1639cc2[m HEAD@{22}: commit: Contador de Status
+[33med2fc31[m HEAD@{23}: commit: fix: transformando submódulo em pasta normal
+[33m476b9f0[m HEAD@{24}: commit: Adicionando workshop-nav ao repositório principal
+[33mf96237b[m HEAD@{25}: commit: Gerenciador de Tarefas
+[33m232b78f[m HEAD@{26}: commit: Relatório de Performance
+[33m5142d00[m HEAD@{27}: commit: lista alunos
+[33m96891fe[m HEAD@{28}: commit: exercício 49 e configuração do gitignore
+[33m22e3b86[m HEAD@{29}: commit: style: removendo node_modules para seguir boas práticas
+[33m9e5da20[m HEAD@{30}: commit: Filtro de Cardápio
+[33m152a9e1[m HEAD@{31}: commit: Validador de Cupom de Desconto
+[33mb50a31a[m HEAD@{32}: commit: simulador carrinho de pizza
+[33m40615dd[m HEAD@{33}: commit: Conversor de Preço de Pizza
+[33mc58ac38[m HEAD@{34}: commit: feat: migração pizzaria e limpeza de node_modules
+[33m03313e1[m HEAD@{35}: reset: moving to HEAD~1
+[33m7b5c92e[m HEAD@{36}: commit: feat: migração completa da pizzaria para React e limpeza do repo
+[33m03313e1[m HEAD@{37}: reset: moving to HEAD
+[33m03313e1[m HEAD@{38}: commit: Limpando arquivos ignorados
+[33m9310d52[m HEAD@{39}: commit: organizando: movendo arquivos para my-react-app
+[33m64c7169[m HEAD@{40}: commit: brinde
+[33m76079ca[m HEAD@{41}: commit: objeo
+[33m74c910a[m HEAD@{42}: reset: moving to HEAD
+[33m74c910a[m HEAD@{43}: commit: classe e objeto
+[33md3af60e[m HEAD@{44}: commit: sensor de temperatura
+[33m48d1cb7[m HEAD@{45}: commit: organizando e excluido uma pasta
+[33m3a0ccda[m HEAD@{46}: commit: proteção de privacidade
+[33m3afc9bc[m HEAD@{47}: commit: organizando arquivos
+[33m4256e1c[m HEAD@{48}: commit: Estrutura diferente função a mesma
+[33m635bcdf[m HEAD@{49}: commit: media alunos
+[33m5981dd1[m HEAD@{50}: commit: adicionar carregador
+[33mac21bfa[m HEAD@{51}: commit: Filtrando e Formatando Objetos
+[33m51a38c9[m HEAD@{52}: commit: Checkout de Loja
+[33mbc25f37[m HEAD@{53}: commit: mudanças css
+[33m91153c7[m HEAD@{54}: commit: produto
+[33md7cf3ba[m HEAD@{55}: commit: filtra pra ir somente mestre
+[33m0833642[m HEAD@{56}: commit: nivel por xp
+[33ma5ab81b[m HEAD@{57}: commit: status de conexão
+[33m448906e[m HEAD@{58}: commit: calcular desconto vip
+[33m44386a4[m HEAD@{59}: commit: gerar Hashtags
+[33m0a6f44a[m HEAD@{60}: commit: retorno pra não febre
+[33m5c8788d[m HEAD@{61}: commit: temperatura para febre
+[33mc1e34e7[m HEAD@{62}: commit: contar votos
+[33mb0e1065[m HEAD@{63}: commit: array buscar nomes
+[33m6386785[m HEAD@{64}: commit: somar array
+[33m756fb7c[m HEAD@{65}: commit: adicionado sort/ordenação
+[33m86303c3[m HEAD@{66}: commit: praticando o básico do array
+[33mc0a2300[m HEAD@{67}: commit: FizzBuzz adaptado
+[33m5371a4d[m HEAD@{68}: commit: ajustes na responsividade, e troca de imagem
+[33mf225173[m HEAD@{69}: commit: trazendo arquivos para a raiz
+[33m161e180[m HEAD@{70}: commit: pasta do teste pizza
+[33mbe96808[m HEAD@{71}: commit: pequenas alterações
+[33m1296643[m HEAD@{72}: commit: calculo IMC
+[33m02b3d51[m HEAD@{73}: checkout: moving from estilo to main
+[33mdbf1de3[m[33m ([m[1;31morigin/estilo[m[33m, [m[1;32mestilo[m[33m)[m HEAD@{74}: checkout: moving from main to estilo
+[33mbc89982[m HEAD@{75}: commit: carrinho de compra
+[33m10a98e1[m HEAD@{76}: checkout: moving from estilo to main
+[33mdbf1de3[m[33m ([m[1;31morigin/estilo[m[33m, [m[1;32mestilo[m[33m)[m HEAD@{77}: checkout: moving from main to estilo
+[33m10a98e1[m HEAD@{78}: checkout: moving from estilo to main
+[33mdbf1de3[m[33m ([m[1;31morigin/estilo[m[33m, [m[1;32mestilo[m[33m)[m HEAD@{79}: checkout: moving from main to estilo
+[33m10a98e1[m HEAD@{80}: checkout: moving from estilo to main
+[33mdbf1de3[m[33m ([m[1;31morigin/estilo[m[33m, [m[1;32mestilo[m[33m)[m HEAD@{81}: checkout: moving from main to estilo
+[33m10a98e1[m HEAD@{82}: checkout: moving from estilo to main
+[33mdbf1de3[m[33m ([m[1;31morigin/estilo[m[33m, [m[1;32mestilo[m[33m)[m HEAD@{83}: commit: outra versão com estilo
+[33m10a98e1[m HEAD@{84}: checkout: moving from main to estilo
+[33m10a98e1[m HEAD@{85}: checkout: moving from estilo to main
+[33m10a98e1[m HEAD@{86}: reset: moving to HEAD
+[33m10a98e1[m HEAD@{87}: checkout: moving from main to estilo
+[33m10a98e1[m HEAD@{88}: commit: site gerenciador cinema
+[33mc06099c[m HEAD@{89}: commit: sistema cinema
+[33m72e07b6[m HEAD@{90}: commit: cinema
+[33m79cd4bf[m HEAD@{91}: commit: tipos de triangulo
+[33m1dbab7b[m HEAD@{92}: commit: número aleatorio
+[33mebef727[m HEAD@{93}: commit: somar n da lista
+[33m77fd9bc[m HEAD@{94}: commit: implementar por hora
+[33m1bc0bbf[m HEAD@{95}: commit: salario por hora
+[33m97c881d[m HEAD@{96}: commit: equilatero
+[33m6da75a6[m HEAD@{97}: commit: corrigindo nome
+[33md68cc93[m HEAD@{98}: commit: ovelha,lobo,alfafa
+[33m6a81b96[m HEAD@{99}: commit: pedido
+[33m6d34dbd[m HEAD@{100}: commit: Semáforo
+[33m39bfa88[m HEAD@{101}: commit: mudança de trabalho pra aula
+[33mf5a487f[m HEAD@{102}: commit: switch
+[33m04d3c07[m HEAD@{103}: commit: palindromo
+[33m884de66[m HEAD@{104}: commit: palindromo-function
+[33mc0242bf[m HEAD@{105}: commit: fibonacci com o function
+[33m292b3c6[m HEAD@{106}: commit: FizzBuzz de outra forma
+[33ma28e222[m HEAD@{107}: commit: fibonacci
+[33m4181aec[m HEAD@{108}: commit: FizzBuzz
+[33m6303cba[m HEAD@{109}: commit: ignor
+[33m960c62f[m HEAD@{110}: commit: media de 3 numeros
+[33m5199799[m HEAD@{111}: commit: area do circulo
+[33m0e2b69d[m HEAD@{112}: commit: efeito de digitação
+[33m0d67d24[m HEAD@{113}: commit: mudança no option
+[33m705f4dc[m HEAD@{114}: commit: organizando modelos 1&2 em uma pasta
+[33m9704fc9[m HEAD@{115}: commit: Ignorar arquivo de exercicio
+[33mc3817d7[m HEAD@{116}: commit: arry
+[33m13c6ccf[m HEAD@{117}: commit: potência sem **
+[33m0e616a5[m HEAD@{118}: commit: divisiveis por 4
+[33m1a0ebd2[m HEAD@{119}: commit: pasta de exercicios em JavaScript
+[33mfe5fe70[m HEAD@{120}: commit: numeros impares de 0 a 20
+[33m6dfb19b[m HEAD@{121}: commit: ecercicio soma de pares
+[33mca6e8a3[m HEAD@{122}: commit: soma dos 100 primeiro números
+[33mf2fbbca[m HEAD@{123}: commit: for tabuada
+[33maad0494[m HEAD@{124}: commit: parimpar
+[33m4a566d1[m HEAD@{125}: commit: mudança de emoji para fotos de gato
+[33m23db65b[m HEAD@{126}: commit: site da ia testando como e
+[33m4337bed[m HEAD@{127}: commit: novo gif
+[33mca4809f[m HEAD@{128}: commit: estilização e animação
+[33m2f47285[m HEAD@{129}: commit: tabuada exercicio
+[33mcb360a0[m HEAD@{130}: commit: alteração no titulo
+[33mc620ef9[m HEAD@{131}: commit: contador exercicio
+[33m68ee091[m HEAD@{132}: commit: nova alteração de fato no link
+[33me90e3dc[m HEAD@{133}: pull --ff --recurse-submodules --progress origin: Merge made by the 'ort' strategy.
+[33m82a3ba6[m HEAD@{134}: commit: alterações
+[33m68308f1[m HEAD@{135}: commit: pizzaria teste da gatinha
+[33mb79f2ad[m HEAD@{136}: commit: correção
+[33m3d8c21c[m HEAD@{137}: commit: modelo dois, exercicio 2, novas imagens
+[33m8b3098a[m HEAD@{138}: commit: animações
+[33me7a09d9[m HEAD@{139}: commit: exercicio site horas
+[33mcc3ccb6[m HEAD@{140}: commit: estrutura aninhada
+[33m00ac27b[m HEAD@{141}: commit: ex 04 estrutura
+[33m2ae08bc[m HEAD@{142}: commit: if e else exercicio
+[33meaa053e[m HEAD@{143}: commit: html do ex02
+[33mfbf97f0[m HEAD@{144}: commit: quadrado usando for
+[33mcee79ff[m HEAD@{145}: commit: primeiro exercicio de condição simples
+[33mf2100cb[m HEAD@{146}: commit (initial): Initial commit

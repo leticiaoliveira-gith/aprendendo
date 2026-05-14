@@ -1,2 +1,5 @@
 exercicio/ex.js
 exercicio/node_61e378344640f.tmp.js
+node_modules/
+node_modules
+dist/
