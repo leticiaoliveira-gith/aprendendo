@@ -7,3 +7,9 @@ export function Card({ name, title, bio }) {
     </div>
   )
 }
+
+export function App() {
+  return (
+    ""
+  );
+}
