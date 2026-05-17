@@ -10,6 +10,7 @@ export function Card({ name, title, bio }) {
 
 export function App() {
   return (
-    ""
-  );
+    <div className="flex-container">
+    </div>
+  )
 }
