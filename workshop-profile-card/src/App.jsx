@@ -9,10 +9,15 @@ export function Card({ name, title, bio }) {
 }
 
 export function App() {
+     const profiles = [
+    {
+      id: 1,
+      name: "Mark",
+      title: "Front-End developer",
+      bio: "I like to work with different front-end technologies and play video games."
+    }
+  ];
   return (
-    <div className="flex-container">
-      
-    </div>
-
-  )
+    <div className="flex-container"></div>
+  );
 }
